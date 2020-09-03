@@ -86,14 +86,39 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./funcoes.js":
+/*!********************!*\
+  !*** ./funcoes.js ***!
+  \********************/
+/*! exports provided: soma, sub, multi, div */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"soma\", function() { return soma; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"sub\", function() { return sub; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"multi\", function() { return multi; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"div\", function() { return div; });\nfunction soma(a, b) {\n  return a + b;\n}\nfunction sub(a, b) {\n  return a - b;\n}\nfunction multi(a, b) {\n  return a * b;\n}\nfunction div(a, b) {\n  return a / b;\n}\n\n//# sourceURL=webpack:///./funcoes.js?");
+
+/***/ }),
+
 /***/ "./main.js":
 /*!*****************!*\
   !*** ./main.js ***!
   \*****************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("var nome = 'Diego';\nvar idade = 23;\nvar usuario = {\n  nome: nome,\n  idade: idade,\n  cidade: 'Rio do Sul'\n};\nconsole.log(usuario);\nvar usuario2 = {\n  nome: nome,\n  idade: idade,\n  cidade: 'Rio do Sul'\n};\nconsole.log(usuario2);\n\n//# sourceURL=webpack:///./main.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _funcoes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./funcoes */ \"./funcoes.js\");\n/* harmony import */ var _soma__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./soma */ \"./soma.js\");\n // as permite mudar o nome da function quando ela não usa o default \n\n\n //Posso mudar para o nome que quiser devido ao default na original\n\n\nconsole.log(Object(_funcoes__WEBPACK_IMPORTED_MODULE_0__[\"soma\"])(1, 2));\nconsole.log(Object(_funcoes__WEBPACK_IMPORTED_MODULE_0__[\"sub\"])(1, 2));\nconsole.log(Object(_soma__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(1, 4));\nconsole.log(Object(_soma__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(1, 4));\nconsole.log(Object(_funcoes__WEBPACK_IMPORTED_MODULE_0__[\"soma\"])(7, 4));\nconsole.log(Object(_soma__WEBPACK_IMPORTED_MODULE_1__[\"sub2\"])(1, 2));\nconsole.log(_funcoes__WEBPACK_IMPORTED_MODULE_0__[\"div\"](2, 1));\nconsole.log(_funcoes__WEBPACK_IMPORTED_MODULE_0__[\"multi\"](2, 2));\n\n//# sourceURL=webpack:///./main.js?");
+
+/***/ }),
+
+/***/ "./soma.js":
+/*!*****************!*\
+  !*** ./soma.js ***!
+  \*****************/
+/*! exports provided: default, sub2 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return soma2; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"sub2\", function() { return sub2; });\nfunction soma2(a, b) {\n  return a + b;\n}\nfunction sub2(a, b) {\n  return a - b;\n}\n\n//# sourceURL=webpack:///./soma.js?");
 
 /***/ })
 
