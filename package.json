@@ -14,7 +14,8 @@
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   },
-  "scripts": {
-    "dev": "babel ./main.js -o ./bundle.js"
+  "scripts": {    
+    "dev": "webpack --mode=development -w" 
   }
+  
 }
