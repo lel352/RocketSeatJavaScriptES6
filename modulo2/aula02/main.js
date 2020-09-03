@@ -1,4 +1,4 @@
-import {soma, sub, soma as soma3Funciton } from './funcoes'; // as permite mudar o nome da function quando ela não usa o default 
+    import {soma, sub, soma as soma3Funciton } from './funcoes'; // as permite mudar o nome da function quando ela não usa o default 
 import soma2, {sub2} from './soma';
 import soma2Funciton from './soma'; //Posso mudar para o nome que quiser devido ao default na original
 import * as funcoes from './funcoes';
