@@ -8,7 +8,7 @@ const usuario = {
 const { nome, ...resto} = usuario;
 
 console.log(nome);
-console.log(resto);
+console.log(resto); // vira um array
 
 
 const arr = [1, 2, 3, 4];
