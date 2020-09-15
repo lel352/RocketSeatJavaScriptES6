@@ -27,3 +27,10 @@ Curso de Java Script ES6
     * Aula 1 - Async/await
     * Aula 2 - Configurando Axios
     * Desafio
+
+4. Modulo 4 - Aplicação com ES6+
+    * Aula 1 - Estrutura e Estilos
+    * Aula 2 - Adicionar repositórios
+    * Aula 3 - Render em tela
+    * Aula 4 - Buscando da API
+    * Aula 5 - Loading e error
